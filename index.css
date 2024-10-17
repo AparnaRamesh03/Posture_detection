@@ -1,0 +1,16 @@
+body {
+    background: hwb(46 25% 11%); /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        hwb(46 25% 11%),
+        hwb(46 25% 11%)
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        hwb(46 25% 11%),
+        hwb(46 25% 11%)
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.row {
+    margin-top: 10vh;
+}
